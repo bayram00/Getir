@@ -1,0 +1,167 @@
+* {
+    padding   : 0;
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+
+.slider {
+    width          : 100%;
+    height         : 80vh;
+    position       : relative;
+    display        : flex;
+    justify-content: center;
+}
+
+.slider .sliderContent {
+    position       : absolute;
+    width          : 100%;
+    height         : 100%;
+    z-index        : 1;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    background     : linear-gradient(to right, #5d3ebc, transparent);
+}
+
+.sliderContent .sliderContentCenter {
+    width          : 100%;
+    max-width      : 1400px;
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.sliderContentCenter .SliderLeft img {
+    width: 200px;
+}
+
+.SliderLeft h3 {
+    color     : #fff;
+    font-size : 3em;
+    width     : 300px;
+    margin-top: 1em;
+
+}
+
+.sliderContentCenter .SliderRight {
+    background    : #fff;
+    padding       : 20px;
+    border-radius : 10px;
+    width         : 450px;
+    height        : 300px;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.SliderRight .formTitle h4 {
+    padding  : 15px;
+    font-size: 1.4em;
+}
+
+.SliderRight .selcetNum {
+    display        : flex;
+    width          : 100%;
+    justify-content: space-between;
+}
+
+.SliderRight .submit{
+    padding: 15px;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+    background-color: yellow;
+    color: #5d3ebc;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+.SliderRight a {
+    width: 100%;
+    text-decoration: none;
+    margin: 20px 0px;
+    font-size: 1.2em;
+}
+
+
+
+.selcetNum select {
+    padding      : 15px;
+    border       : solid 2px rgba(128, 128, 128, 0.459);
+    outline      : none;
+    border-radius: 6px;
+    transition   : 0.4s;
+}
+
+.selcetNum .inp {
+    width: 100%;
+}
+
+.selcetNum select:hover {
+    border: solid 2px #5d3ebc;
+}
+
+.selcetNum input {
+    width        : 100%;
+    padding      : 15px;
+    border       : solid 2px rgba(128, 128, 128, 0.459);
+    outline      : none;
+    border-radius: 6px;
+    margin-left: 10px;
+    transition   : 0.4s;
+}
+
+.selcetNum span {
+    position: absolute;
+    line-height:55px;
+    margin-left: 25px;
+}
+
+.selcetNum input:focus span{
+    color: red;
+}
+
+.selcetNum input:hover {
+    border: solid 2px #5d3ebc;
+
+}
+
+
+.slider .imgshow {
+    position       : absolute;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 100%;
+    height         : 100%;
+    top            : 0;
+    left           : 0;
+    background-size: cover;
+    object-fit     : cover;
+}
+
+.Mobil-banner img{
+    width: 100%;
+    display: none;
+}
+
+.mobile-Form {
+    padding: 10px 25px;
+    display: none;
+}
+
+
+@media (max-width:900px) {
+    .slider {
+        display: none;
+    }
+
+    .mobile-Form,
+    .Mobil-banner img {
+        display: block;
+    }
+
+}
+

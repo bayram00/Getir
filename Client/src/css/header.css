@@ -1,0 +1,281 @@
+.header {
+    width           : 100%;
+    background-color: rgb(76, 51, 152);
+    padding         : 0 10px;
+    height          : 50px;
+}
+
+.header .header-content {
+    max-width      : 1400px;
+    width          : 100%;
+    margin         : 0 auto;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.header-content ul {
+    list-style: none;
+    display   : flex;
+}
+
+.header-content ul li {
+    padding    : 2px 0px 0px 0px;
+    font-weight: 600;
+}
+
+.header-content ul li a {
+    text-decoration: none;
+    color          : #fff;
+    line-height    : 50px;
+    font-size      : 19px;
+    margin         : 0 1px;
+    padding        : 9px 20px 12px 20px;
+
+}
+
+.header-content ul li a:hover {
+    background-color: rgb(93, 62, 188);
+    border-radius   : 6px 6px 0px 0px;
+}
+
+
+.header-content ul button {
+    padding    : 10px 12px;
+    background : transparent;
+    border     : none;
+    color      : #fff;
+    font-size  : 17px;
+    font-weight: 600;
+    cursor     : pointer;
+}
+
+.header-content ul button i {
+    padding: 0px 5px;
+}
+
+.Active {
+    color        : #ffd300 !important;
+    border-radius: 6px 6px 0px 0px;
+    background   : rgb(93, 62, 188);
+}
+
+.modal-backdrop {
+    background: rgba(0, 0, 0, 0.623);
+}
+
+.modalHeader {
+    padding: 30px 0;
+}
+
+.modalHeader p {
+    text-align: center;
+    font-size : 20px;
+    color     : rebeccapurple;
+}
+
+.modalHeader button {
+    position: absolute;
+    right   : 20px;
+    top     : 15px;
+}
+
+.modalBody {
+    display       : flex;
+    flex-direction: column;
+}
+
+.modalBody input {
+    padding      : 15px;
+    margin       : 5px 0px;
+    border-radius: 6px 6px;
+    border       : solid 3px rgba(128, 128, 128, 0.459);
+}
+
+.modalBody input:hover {
+    border: solid 3px rgb(106, 77, 192);
+}
+
+.modalBody span {
+    display    : flex;
+    width      : 100%;
+    padding    : 10px;
+    line-height: 0px;
+}
+
+.modalBody small {
+    padding  : 7px 2px;
+    font-size: 1em;
+    opacity  : 0.8;
+}
+
+
+
+.ModalFooter a {
+    text-decoration: none;
+}
+
+.ModalFooter button {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 100%;
+    margin         : 0 auto;
+    padding        : 2rem 5rem;
+    background     : rgb(93, 62, 188);
+    border         : none;
+    outline        : none !important;
+    color          : #fff;
+    font-size      : 2rem;
+
+}
+
+.ModalFooter button:hover {
+    background: rgb(106, 77, 192);
+    color     : rgb(46, 45, 45);
+}
+
+.ModalFooter div {
+    width     : 100%;
+    padding   : 15px;
+    text-align: center;
+    color     : black;
+}
+
+.ModalFooter small {
+    font-size: 1em;
+}
+
+.ModalFooter span {
+    margin-right: 10px;
+    font-size   : 1.2em;
+    color       : rgb(106, 77, 192);
+    cursor      : pointer;
+}
+
+.ModalFooter input {
+    width        : 100%;
+    padding      : 15px;
+    background   : rgb(76, 51, 152);
+    color        : #fff;
+    font-size    : 1.3em;
+    border-radius: 6px 6px;
+}
+
+.headerMobile {
+    width          : 100%;
+    background     : rgb(93, 62, 188);
+    display        : none;
+    align-items    : center;
+    justify-content: center;
+    margin-top     : -3px;
+}
+
+.headerMobile a {
+    text-decoration: none;
+    color          : #ffd300;
+    font-size      : 2em;
+    line-height    : 65px;
+}
+
+.headerMobileAddres div {
+    width          : 100%;
+    display        : none;
+    justify-content: space-between;
+    align-items    : center;
+    background     : #ffd300;
+    padding        : 5px 20px;
+    color          : rgb(106, 77, 192);
+    font-size      : 1.3em;
+    cursor: pointer;
+}
+
+.headerMobileAddres div p {
+    margin: 4px 0px 0px 0px;
+}
+
+.forumNumber {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.forumNumber select {
+    padding: 20px 10px;
+    border : solid 3px rgba(128, 128, 128, 0.459);
+}
+
+.forumNumber input {
+    padding: 20px 10px;
+    width  : 100%;
+    margin : 0 5px;
+    border : solid 3px rgba(128, 128, 128, 0.459);
+}
+
+.usersubmit {
+    width        : 100%;
+    margin-top   : 10px;
+    padding      : 15px;
+    background   : #ffd300;
+    border       : none;
+    outline      : none;
+    color        : rgb(106, 77, 192);
+    font-weight  : 600;
+    font-size    : 1.3em;
+    border-radius: 6px 6px;
+    transition   : 0.4s;
+}
+
+.userText {
+    padding: 15px;
+}
+
+.UserSocilaMedia {
+    margin         : 0 auto;
+    padding        : 15px;
+    width          : 90%;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    color          : rgb(60, 90, 153);
+    background     : rgba(60, 90, 153, 0.1);
+    cursor         : pointer;
+}
+
+.UserSocilaMedia i {
+    width    : 45px;
+    font-size: 1.8em;
+}
+
+.UserSocilaMedia p {
+    width     : 100%;
+    text-align: center;
+    margin    : 5px 0px 0px 0px;
+}
+
+
+.usersubmit:hover {
+    background: rgb(106, 77, 192);
+    color     : #ffd300;
+}
+
+
+
+
+
+
+/*Mobil sccren*/
+
+@media (max-width:900px) {
+    .navigasyonLeft {
+        display: none !important;
+    }
+
+    .headerMobile {
+        display: flex;
+    }
+
+    .headerMobileAddres div{
+        display: flex;
+    }
+}

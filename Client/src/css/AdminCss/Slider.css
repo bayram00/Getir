@@ -1,0 +1,26 @@
+.Slider {
+    padding: 15px;
+    display: flex;
+}
+
+.file-upload {
+    outline: none !important;
+    cursor: pointer;
+}
+
+.file-upload::-webkit-file-upload-button{
+    padding: 10px;
+    border:none;
+    background: rgb(76, 51, 152);
+    color: white;    
+}
+
+.btn {
+    padding: 10px;
+    border:none;
+    background: rgb(76, 51, 152);
+    color: white;
+}
+.btn:hover {
+    color: yellow;
+}

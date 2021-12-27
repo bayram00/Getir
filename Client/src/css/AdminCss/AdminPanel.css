@@ -1,0 +1,48 @@
+.AdminPanel {
+    position       : sticky;
+    width          : 250px;
+    height         : 95vh;
+    padding        : 10px;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: space-between;
+    background     : rgb(76, 51, 152);
+    top: 0px;
+    left: 0;
+}
+
+.AdminPanel .Title h1 {
+    font-size: 2em;
+    color    : #ffd300;
+}
+
+.AdminPanel .Content-Router{
+    width: 100%;
+}
+
+.Content-Router button {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    background: inherit;
+    font-size: 1.4em;
+    border-bottom: solid 1px #ffd300  ;
+}
+
+.Content-Router button a {
+    text-decoration: none;
+    color: #ffd300;
+}
+
+.Content-Router button a:hover {
+    color: #ffd50098 ;
+}
+
+.Router a {
+    color: #ffd300;
+    font-size: 2.1em;
+}
